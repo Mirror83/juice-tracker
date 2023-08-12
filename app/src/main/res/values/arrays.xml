@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_colors">
+        <item>@string/red</item>
+        <item>@string/blue</item>
+        <item>@string/green</item>
+        <item>@string/cyan</item>
+        <item>@string/yellow</item>
+        <item>@string/magenta</item>
+    </string-array>
+</resources>
