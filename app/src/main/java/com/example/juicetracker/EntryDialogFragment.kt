@@ -50,6 +50,7 @@ class EntryDialogFragment : BottomSheetDialogFragment(), AdapterView.OnItemSelec
                             binding.name.setText(it.name)
                             binding.description.setText(it.description)
                             binding.colorSpinner.setSelection(colorStringList.indexOf(it.color))
+                            binding.ratingBar.rating = it.rating.toFloat()
                         }
 
                     }
