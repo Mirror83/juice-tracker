@@ -22,7 +22,7 @@
     <string name="juice_rating">Rating</string>
     <string name="name">Name</string>
     <string name="save">Save</string>
-    <string name="juice_color">Color</string>
+    <string name="juice_color">Color %s</string>
 
     <string name="red">Red</string>
     <string name="blue">Blue</string>
@@ -33,4 +33,8 @@
     <string name="cancel">Cancel</string>
     <string name="apple_juice">Apple juice</string>
     <string name="add_juice">Add new juice\n</string>
+    <plurals name="number_of_stars" >
+        <item quantity="one">%d star</item>
+        <item quantity="other">%d stars</item>
+    </plurals>
 </resources>
